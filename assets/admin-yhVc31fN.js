@@ -1,0 +1,1 @@
+import{r}from"./request-BQyh7-e5.js";class s{static login(t){return r({url:"/admin/login",method:"post",data:t})}static createBlog(t){return r({url:"/admin/articles",method:"post",data:t})}static getBlogList(){return r({url:"/articleList",method:"get"})}}export{s as A};

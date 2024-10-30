@@ -1,0 +1,1 @@
+import{r as e}from"./request-BQyh7-e5.js";class a{static getCategories(){return e({url:"/categories",method:"get"})}static getBlogById(t){return e({url:"/articles",method:"get",params:{id:t}})}}export{a as B};
