@@ -1,0 +1,1 @@
+import{J as e}from"./index-Cu5AWCpx.js";class a{static login(t){return e({url:"/admin/login",method:"post",data:t})}static createBlog(t){return e({url:"/admin/articles",method:"post",data:t})}static updateBlog(t){return e({url:"/admin/articles",method:"put",data:t})}static getBlogList(){return e({url:"/articleList",method:"get"})}}export{a as A};
